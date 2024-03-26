@@ -1,4 +1,5 @@
 import './style.css'
+import './node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
 
 let table = document.getElementById("information-rows")
@@ -15,8 +16,8 @@ const tableRow = ( names, last_names, permissions) => {
         <td>${permissions.upload ?"X" :"" }</td>
         <td>${permissions.delete ?"X" :"" }</td>
         <td>
-        No sé
-        <i class="bi bi-trash"></i>
+            <i class="bi bi-trash" title="eliminar"></i>
+            <i class="bi bi-plus-circle" title="actualizar"></i>
         </td>
     </tr>`
 }
