@@ -93,15 +93,14 @@ body{
 .main-navbar{
   width: 100%;
   background: #686868;
-  overflow: hidden;
-  overflow-y: scroll;
+  overflow: hidden auto;
 }
 
 .information{
   min-height: 100vh;
   width: 100%;
   background: #e28e8e;
-  overflow-y: scroll;
+  overflow: hidden auto;
 
   .information-header{
     width: 100%;

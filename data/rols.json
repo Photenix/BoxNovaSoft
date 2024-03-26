@@ -1,0 +1,83 @@
+[
+    {
+        "names": "Juan Manuel",
+        "last_names": "Pino Ross",
+        "permissions": {
+            "create": true,
+            "upload": true,
+            "delete": true
+        }
+    },
+    {
+        "names": "Ana María",
+        "last_names": "López Pérez",
+        "permissions": {
+            "create": false,
+            "upload": true,
+            "delete": false
+        }
+    },
+    {
+        "names": "Pedro Miguel",
+        "last_names": "Gómez Martínez",
+        "permissions": {
+            "create": true,
+            "upload": false,
+            "delete": true
+        }
+    },
+    {
+        "names": "Sandra Isabel",
+        "last_names": "Fernández García",
+        "permissions": {
+            "create": false,
+            "upload": false,
+            "delete": false
+        }
+    },
+    {
+        "names": "David Alejandro",
+        "last_names": "Ruiz Díaz",
+        "permissions": {
+            "create": true,
+            "upload": true,
+            "delete": true
+        }
+    },
+    {
+        "names": "Laura Valentina",
+        "last_names": "Sánchez Rodríguez",
+        "permissions": {
+            "create": false,
+            "upload": true,
+            "delete": false
+        }
+    },
+    {
+        "names": "Carlos Alberto",
+        "last_names": "Ramírez González",
+        "permissions": {
+            "create": true,
+            "upload": false,
+            "delete": true
+        }
+    },
+    {
+        "names": "Mariana Andrea",
+        "last_names": "Torres López",
+        "permissions": {
+            "create": false,
+            "upload": false,
+            "delete": true
+        }
+    },
+    {
+        "names": "Jorge Enrique",
+        "last_names": "Castro Martínez",
+        "permissions": {
+            "create": true,
+            "upload": true,
+            "delete": false
+        }
+    }
+]
