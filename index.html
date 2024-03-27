@@ -68,9 +68,26 @@
                   <i class="bi bi-plus-circle"></i>
                 </td>
               </tr>
-              
             </tbody>
           </table>
+
+          <form action="/" method="get" class="new-item" id="new-item">
+            <label for="name">Nombre</label>
+            <input type="text" placeholder="Nombre" id="name" name="name" required>
+            
+            <fieldset>
+              <legend>Permisos</legend>
+              <label for="create">Crear</label>
+              <input type="checkbox" name="create" id="create">
+
+              <label for="update">Actualizar</label>
+              <input type="checkbox" name="update" id="update">
+              
+              <label for="delete">Borrar</label>
+              <input type="checkbox" name="delete" id="delete">
+            </fieldset>
+            <input type="submit" value="Crear">
+          </form>
         </div>
 
       </main>

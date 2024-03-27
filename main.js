@@ -1,5 +1,5 @@
 import './style.css'
-import './node_modules/bootstrap-icons/font/bootstrap-icons.css'
+import 'bootstrap-icons/font/bootstrap-icons.css'
 
 
 let table = document.getElementById("information-rows")
@@ -35,3 +35,10 @@ fetch("/data/rols.json")
         });
         console.log( json ) 
     })
+
+const form = document.getElementById("new-item")
+
+form.addEventListener("submit", e => {
+    e.preventDefault()
+    console.log("hi");
+})
