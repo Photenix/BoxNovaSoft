@@ -61,23 +61,51 @@ body {
     ul {
       color: var(--orange);
       cursor: pointer;
+      transition: all 0.2s;
+      user-select: none;
     }
 
     li {
       list-style: none;
       transition: all 0.3s;
-      &:hover {
-        color: var(--blue);
-      }
+    }
+
+    li:hover, summary:hover {
+      color: var(--blue);
     }
   }
 
   details[open]{
-    border: solid 1px white;
-    padding: 4px;
-    border-radius: 8px;
+    transition: all 0.2s;
+    background: rgba(255, 255, 255, 0.192);
+    border-radius: 4px;
+
+    summary {
+     padding: 4px;
+     background: rgba(255, 255, 255, 0.192);
+     border-radius: 4px;
+    }
+
+    ul{
+      animation: move-mondiu 0.5s ease-out;
+    }
+  }
+  
+} 
+
+@keyframes move-mondiu {
+  from{
+    margin-block: 0em;
+    padding-inline-start: 0;
+  }
+
+  to{
+    margin-block: 1em;
+    padding-inline-start: 40px;
   }
 }
+
+
 
 .navbar-header {
   display: flex;
