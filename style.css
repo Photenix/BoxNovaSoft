@@ -25,7 +25,7 @@ body {
   overflow: hidden auto;
 }
 
-.information {
+.information, .market{
   min-height: 100vh;
   width: 100%;
   background: var(--pink);
@@ -87,6 +87,7 @@ body {
     }
 
     ul{
+      padding-bottom: 20px;
       animation: move-mondiu 0.5s ease-out;
     }
   }
@@ -170,5 +171,38 @@ table {
     background: var(--orange);
     border: none;
     color: var(--read);
+  }
+}
+
+#app:has(>.market){
+  display: block;
+}
+
+.market{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card-market{
+  --h-size: 300px;
+
+  width: var(--h-size);
+  background: var(--orange);
+  border-radius: 5px;
+  height: min-content;
+
+  img{
+    margin-top: 20px;
+    width: var(--h-size);
+    height: 200px;
+    background: #FFFFFF;
+    border: none;
+  }
+  
+  .card-market-description{
+    padding: 20px;
+    
   }
 }
