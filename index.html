@@ -7,6 +7,29 @@
     <title>Box Nova</title>
   </head>
   <body>
+
+    <dialog id="info-change">
+      <form method="dialog">
+        <label for="name-change">Nombres</label>
+        <input type="text" name="name-change" id="name-change">
+        <label for="last-name-change">Apellidos</label>
+        <input type="text" name="name-change" id="last-name-change">
+        <fieldset>
+          <legend>Permisos</legend>
+          <label for="create-change">Crear</label>
+          <input type="checkbox" name="create" id="create-change">
+
+          <label for="update">Actualizar</label>
+          <input type="checkbox" name="update" id="update-change">
+          
+          <label for="delete">Borrar</label>
+          <input type="checkbox" name="delete" id="delete-change">
+        </fieldset>
+
+        <button>Completar</button>
+      </form>
+    </dialog>
+
     <div id="app">
       <nav class="main-navbar">
         <header class="navbar-header">
